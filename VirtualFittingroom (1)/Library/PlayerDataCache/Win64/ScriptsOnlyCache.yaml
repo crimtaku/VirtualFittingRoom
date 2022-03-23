@@ -1,0 +1,1464 @@
+ScriptsOnlyBuild:
+  usedScripts:
+    Assembly-CSharp.dll:
+    - AdjustObjectLocation
+    - AnimationController
+    - CameraRotate
+    - EventManager
+    - ObjFromFile
+    - WindControl
+    - choosecloth
+    Obi.dll:
+    - Obi.ObiAmbientForceZone
+    - Obi.ObiCloth
+    - Obi.ObiClothBlueprint
+    - Obi.ObiClothProxy
+    - Obi.ObiClothRenderer
+    - Obi.ObiCollider
+    - Obi.ObiCollisionMaterial
+    - Obi.ObiDistanceField
+    - Obi.ObiLateFixedUpdater
+    - Obi.ObiParticleRenderer
+    - Obi.ObiSolver
+    - Obi.ObiTriangleSkinMap
+    - Obi.OniColliderWorld
+    Unity.CollabProxy.Editor.dll:
+    - Unity.Cloud.Collaborate.UserInterface.CollaborateWindow
+    - Unity.Cloud.Collaborate.UserInterface.WindowCache
+    Unity.InputSystem.dll:
+    - UnityEngine.InputSystem.InputActionAsset
+    - UnityEngine.InputSystem.InputActionReference
+    - UnityEngine.InputSystem.InputSettings
+    - UnityEngine.InputSystem.InputSystemObject
+    - UnityEngine.InputSystem.RemoteInputPlayerConnection
+    - UnityEngine.InputSystem.UI.InputSystemUIInputModule
+    - UnityEngine.InputSystem.XR.TrackedPoseDriver
+    Unity.Rider.Editor.dll:
+    - Packages.Rider.Editor.UnitTesting.CallbackData
+    Unity.XR.Management.Editor.dll:
+    - UnityEditor.XR.Management.XRGeneralSettingsPerBuildTarget
+    Unity.XR.Management.dll:
+    - UnityEngine.XR.Management.XRGeneralSettings
+    - UnityEngine.XR.Management.XRManagerSettings
+    Unity.XR.Oculus.dll:
+    - Unity.XR.Oculus.OculusLoader
+    - Unity.XR.Oculus.OculusSettings
+    Unity.XR.OpenXR.Editor.dll:
+    - UnityEditor.XR.OpenXR.OpenXRPackageSettings
+    Unity.XR.OpenXR.Features.ConformanceAutomation.dll:
+    - UnityEngine.XR.OpenXR.Features.ConformanceAutomation.ConformanceAutomationFeature
+    Unity.XR.OpenXR.Features.MockRuntime.dll:
+    - UnityEngine.XR.OpenXR.Features.Mock.MockRuntime
+    Unity.XR.OpenXR.Features.OculusQuestSupport.dll:
+    - UnityEngine.XR.OpenXR.Features.OculusQuestSupport.OculusQuestFeature
+    Unity.XR.OpenXR.Features.RuntimeDebugger.dll:
+    - UnityEngine.XR.OpenXR.Features.RuntimeDebugger.RuntimeDebuggerOpenXRFeature
+    Unity.XR.OpenXR.dll:
+    - UnityEngine.XR.OpenXR.Features.Interactions.EyeGazeInteraction
+    - UnityEngine.XR.OpenXR.Features.Interactions.HTCViveControllerProfile
+    - UnityEngine.XR.OpenXR.Features.Interactions.KHRSimpleControllerProfile
+    - UnityEngine.XR.OpenXR.Features.Interactions.MicrosoftHandInteraction
+    - UnityEngine.XR.OpenXR.Features.Interactions.MicrosoftMotionControllerProfile
+    - UnityEngine.XR.OpenXR.Features.Interactions.OculusTouchControllerProfile
+    - UnityEngine.XR.OpenXR.Features.Interactions.ValveIndexControllerProfile
+    - UnityEngine.XR.OpenXR.OpenXRSettings
+    UnityEditor.Graphs.dll:
+    - UnityEditor.Graphs.AnimationBlendTree.Graph
+    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.Graph
+    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimatorControllerTool
+    UnityEditor.TestRunner.dll:
+    - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
+    - UnityEditor.TestTools.TestRunner.TestListCacheData
+    - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
+    UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.UI.Button
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.Dropdown
+    - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.Image
+    - UnityEngine.UI.Mask
+    - UnityEngine.UI.ScrollRect
+    - UnityEngine.UI.Scrollbar
+    - UnityEngine.UI.Slider
+    - UnityEngine.UI.Text
+    - UnityEngine.UI.Toggle
+  sceneClasses:
+    Assets/Scenes/SampleScene.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 90
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 738}
+    - Class: 114
+      Script: {instanceID: 1660}
+    - Class: 114
+      Script: {instanceID: 1822}
+    - Class: 114
+      Script: {instanceID: 1842}
+    - Class: 114
+      Script: {instanceID: 1924}
+    - Class: 114
+      Script: {instanceID: 2348}
+    - Class: 114
+      Script: {instanceID: 2442}
+    - Class: 114
+      Script: {instanceID: 2458}
+    - Class: 114
+      Script: {instanceID: 2528}
+    - Class: 114
+      Script: {instanceID: 2806}
+    - Class: 114
+      Script: {instanceID: 2962}
+    - Class: 114
+      Script: {instanceID: 3006}
+    - Class: 114
+      Script: {instanceID: 3200}
+    - Class: 114
+      Script: {instanceID: 3430}
+    - Class: 114
+      Script: {instanceID: 3484}
+    - Class: 114
+      Script: {instanceID: 3704}
+    - Class: 114
+      Script: {instanceID: 3814}
+    - Class: 114
+      Script: {instanceID: 3882}
+    - Class: 114
+      Script: {instanceID: 3962}
+    - Class: 114
+      Script: {instanceID: 4380}
+    - Class: 114
+      Script: {instanceID: 4398}
+    - Class: 114
+      Script: {instanceID: 4512}
+    - Class: 114
+      Script: {instanceID: 4564}
+    - Class: 114
+      Script: {instanceID: 4976}
+    - Class: 114
+      Script: {instanceID: 5038}
+    - Class: 114
+      Script: {instanceID: 5040}
+    - Class: 114
+      Script: {instanceID: 5074}
+    - Class: 114
+      Script: {instanceID: 5294}
+    - Class: 114
+      Script: {instanceID: 5498}
+    - Class: 114
+      Script: {instanceID: 5562}
+    - Class: 114
+      Script: {instanceID: 5870}
+    - Class: 114
+      Script: {instanceID: 5968}
+    - Class: 114
+      Script: {instanceID: 6208}
+    - Class: 114
+      Script: {instanceID: 6666}
+    - Class: 114
+      Script: {instanceID: 19730}
+    - Class: 114
+      Script: {instanceID: 19762}
+    - Class: 114
+      Script: {instanceID: 19772}
+    - Class: 114
+      Script: {instanceID: 19774}
+    - Class: 114
+      Script: {instanceID: 19776}
+    - Class: 114
+      Script: {instanceID: 19780}
+    - Class: 114
+      Script: {instanceID: 19796}
+    - Class: 114
+      Script: {instanceID: 19798}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 120
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 136
+      Script: {instanceID: 0}
+    - Class: 137
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 182
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 258
+      Script: {instanceID: 0}
+    - Class: 850595691
+      Script: {instanceID: 0}
+  scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: 24c74cc0d527a06113f2b967042769f0
+    assemblyName: UnityEngine.XR.LegacyInputHelpers.dll
+    namespaceName: UnityEditor.XR.LegacyInputHelpers
+    className: CameraOffset
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BoatFinishLine
+  - hash:
+      serializedVersion: 2
+      Hash: 5ab533713adae59372fb3e10a585c186
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AnimationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: c1c7b608d8ddf5a5610947e6bbdfd8a5
+    assemblyName: Obi.dll
+    namespaceName: Obi
+    className: ObiInstancedParticleRenderer
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.UI
+    className: BaseInputOverride
+  - hash:
+      serializedVersion: 2
+      Hash: c24a778d9aa393e11e54bff320ca63de
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem
+    className: PlayerInput
+  - hash:
+      serializedVersion: 2
+      Hash: a6e561615949734e9f12f9b61661f43e
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Image
+  - hash:
+      serializedVersion: 2
+      Hash: 04e4a8b0447477cc4e933d9e5311188f
+    assemblyName: UnityEngine.XR.LegacyInputHelpers.dll
+    namespaceName: UnityEngine.XR.LegacyInputHelpers
+    className: ArmModel
+  - hash:
+      serializedVersion: 2
+      Hash: a935557ace765c5c6b78108f28f6c6d5
+    assemblyName: Obi.dll
+    namespaceName: Obi
+    className: ObiParticlePicker
+  - hash:
+      serializedVersion: 2
+      Hash: 77aaaaa51f7a8d8ff333a879741e47d2
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_InputField
+  - hash:
+      serializedVersion: 2
+      Hash: 3da309352a1883dae2e14d71c432a803
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AddRandomVelocity
+  - hash:
+      serializedVersion: 2
+      Hash: d8e2a52ca99d0258e884ab7d896395ea
+    assemblyName: Unity.XR.Oculus.dll
+    namespaceName: Unity.XR.Oculus
+    className: OculusSettings
+  - hash:
+      serializedVersion: 2
+      Hash: bd656770bb83579697e8bd2e1b2318d4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Obi
+    className: ColorFromVelocity
+  - hash:
+      serializedVersion: 2
+      Hash: 52bcb9c2a78bdd8d98a59e915c346e75
+    assemblyName: UnityEngine.XR.LegacyInputHelpers.dll
+    namespaceName: UnityEngine.XR.LegacyInputHelpers
+    className: TransitionArmModel
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalAsset
+  - hash:
+      serializedVersion: 2
+      Hash: bcaee4c2a83047257b5f47d6ed264b75
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Toggle
+  - hash:
+      serializedVersion: 2
+      Hash: 8951db4bb06fc9ecf08a2f92b7be7a87
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: WindControl
+  - hash:
+      serializedVersion: 2
+      Hash: 0dbc3be398b4869a5c8d0d8481ee402c
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: LayoutElement
+  - hash:
+      serializedVersion: 2
+      Hash: 426db24f25ee9ce1f63823da84855907
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FPSDisplay
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ObjectDragger
+  - hash:
+      serializedVersion: 2
+      Hash: 6bc76e17f0d5e93f3eea7f5a2fe227f3
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Selectable
+  - hash:
+      serializedVersion: 2
+      Hash: 21a9c6dbf300fc1f6dc15ca7e2c39a37
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Slider
+  - hash:
+      serializedVersion: 2
+      Hash: 3164bc883ff663a5cdb32d1ef7e7c0c5
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: HorizontalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: e1b3fcf880f132c2ac5deabea7fe43fb
+    assemblyName: Obi.dll
+    namespaceName: Obi
+    className: ObiContactEventDispatcher
+  - hash:
+      serializedVersion: 2
+      Hash: 9b06583966b5c25325233c4ef1ab1fd4
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.HID.Editor
+    className: HIDDescriptorWindow
+  - hash:
+      serializedVersion: 2
+      Hash: caa533b001ae39b864ba8425019e2268
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Shadow
+  - hash:
+      serializedVersion: 2
+      Hash: 300fd99066f8c288e85f5e81ce65fe34
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_FontAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 3da309352a1883dae2e14d71c432a803
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Rudder
+  - hash:
+      serializedVersion: 2
+      Hash: 1be5ee23282525b841976a22826bcd2b
+    assemblyName: Unity.XR.OpenXR.dll
+    namespaceName: UnityEngine.XR.OpenXR
+    className: OpenXRSettings
+  - hash:
+      serializedVersion: 2
+      Hash: fbc44f2facca3361eb778d52ab20172e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ObiParticleCounter
+  - hash:
+      serializedVersion: 2
+      Hash: 1cf1b72f4510f9f8b3165c67727d46b8
+    assemblyName: Obi.dll
+    namespaceName: Obi
+    className: ObiCloth
+  - hash:
+      serializedVersion: 2
+      Hash: ca03c4c1e844a2289de20fe3f51d56df
+    assemblyName: Obi.dll
+    namespaceName: Obi
+    className: ObiRigidbody2D
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: GroupTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 6b59c318352b3d62f97d9ba817dc743b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ObjFromFile
+  - hash:
+      serializedVersion: 2
+      Hash: 03378d471af9c85de9acca542333383c
+    assemblyName: Obi.dll
+    namespaceName: Obi
+    className: ObiAmbientForceZone
+  - hash:
+      serializedVersion: 2
+      Hash: 0a479ffb6c42bf3d5d463d23478b164c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: StretchToColors
+  - hash:
+      serializedVersion: 2
+      Hash: 800c50acba124432abb4cf0d47202e06
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_StyleSheet
+  - hash:
+      serializedVersion: 2
+      Hash: 699619b86d9359741a4f58540298c80b
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Text
+  - hash:
+      serializedVersion: 2
+      Hash: cd0ecdca0166232906c6f2df9dddc3d3
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: AdvancedDropdownWindow
+  - hash:
+      serializedVersion: 2
+      Hash: f1d735cc1a21c3704ab52568f4fbfcf8
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner
+    className: PlaymodeTestsController
+  - hash:
+      serializedVersion: 2
+      Hash: c1d728126ff1918728036c59106d32b2
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: RawImage
+  - hash:
+      serializedVersion: 2
+      Hash: 295831406da5907d41f58d84acd55d8d
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: InputActionEditorWindow
+  - hash:
+      serializedVersion: 2
+      Hash: a38572502626d44cdd4c4cd736b0c649
+    assemblyName: Obi.dll
+    namespaceName: Obi
+    className: ObiClothBlueprint
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ColliderHighlighter
+  - hash:
+      serializedVersion: 2
+      Hash: fc169718e5fd24cea7425f24908c0418
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: PlayerInputManagerEditor
+  - hash:
+      serializedVersion: 2
+      Hash: ca03c4c1e844a2289de20fe3f51d56df
+    assemblyName: Obi.dll
+    namespaceName: Obi
+    className: ObiRigidbody
+  - hash:
+      serializedVersion: 2
+      Hash: 665b79189d9f0dcfb6d1974a31cb7f66
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: choosecloth
+  - hash:
+      serializedVersion: 2
+      Hash: 77a4e79347d91262c49e202be934847b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ActorSpawner
+  - hash:
+      serializedVersion: 2
+      Hash: a1aa98c78061c6f03a8c124cda576e67
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: CanvasScaler
+  - hash:
+      serializedVersion: 2
+      Hash: ea41fa959037983f32ebd7c70de46554
+    assemblyName: Unity.XR.OpenXR.Features.ConformanceAutomation.dll
+    namespaceName: UnityEngine.XR.OpenXR.Features.ConformanceAutomation
+    className: ConformanceAutomationFeature
+  - hash:
+      serializedVersion: 2
+      Hash: ca4ba60f9eac4af62a31ff259549d105
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CollisionEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: cf9f5cf2c3145a37ac07f00e50e460f9
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: AspectRatioFitter
+  - hash:
+      serializedVersion: 2
+      Hash: 84d73a276453ed42fe3ddb92020b2423
+    assemblyName: Obi.dll
+    namespaceName: Obi
+    className: SetCategory
+  - hash:
+      serializedVersion: 2
+      Hash: cc4274b586df3c02688bac01b88bd16c
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: EventSystem
+  - hash:
+      serializedVersion: 2
+      Hash: fe64a45214940b510a0ec79c96d43498
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: f336e086360abe49a3323e5f1583c35a
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AudioTrack
+  - hash:
+      serializedVersion: 2
+      Hash: a74405a4829a834d107a0c6e072719ed
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: TimelineAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 760787567e1b60d64a3e421ab83ee14a
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextMeshProUGUI
+  - hash:
+      serializedVersion: 2
+      Hash: a7b411dbf66a2a843a8fa8ca3ea2a5eb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SackGenerator
+  - hash:
+      serializedVersion: 2
+      Hash: b3b395338603613632ae61720d9c9f53
+    assemblyName: Obi.dll
+    namespaceName: Obi
+    className: ObiCollider2D
+  - hash:
+      serializedVersion: 2
+      Hash: 5f5a72f938c631ecd1a3f37b3b85bd84
+    assemblyName: Obi.dll
+    namespaceName: Obi
+    className: ObiCollisionMaterial
+  - hash:
+      serializedVersion: 2
+      Hash: ea41fa959037983f32ebd7c70de46554
+    assemblyName: Unity.XR.OpenXR.dll
+    namespaceName: UnityEngine.XR.OpenXR.Features.Interactions
+    className: HTCViveControllerProfile
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestRunner.Utils
+    className: TestRunCallbackListener
+  - hash:
+      serializedVersion: 2
+      Hash: ae83e830e7a90c0aff918c4c2e520825
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GraphicRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.XR.OpenXR.dll
+    namespaceName: UnityEngine.XR.OpenXR
+    className: OpenXRLoader
+  - hash:
+      serializedVersion: 2
+      Hash: f40fedccd4adbc76605bea6d67537e4b
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SelectionCaret
+  - hash:
+      serializedVersion: 2
+      Hash: ea41fa959037983f32ebd7c70de46554
+    assemblyName: Unity.XR.OpenXR.dll
+    namespaceName: UnityEngine.XR.OpenXR.Features.Interactions
+    className: MicrosoftHandInteraction
+  - hash:
+      serializedVersion: 2
+      Hash: a306e12d896ddcca949923c805691027
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: InputField
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SpriteAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: 2253bdcc21b32a8acc85430660c0bfa9
+    assemblyName: Obi.dll
+    namespaceName: 
+    className: ObiContactGrabber
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: TestResultRendererCallback
+  - hash:
+      serializedVersion: 2
+      Hash: 76d97e0121364cab4322f5ef7068606e
+    assemblyName: Obi.dll
+    namespaceName: Obi
+    className: ObiSphericalForceZone
+  - hash:
+      serializedVersion: 2
+      Hash: bec290e385404f7e9cf5713ec867b95f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ActorCOMTransform
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ClothTornEvent
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SlowmoToggler
+  - hash:
+      serializedVersion: 2
+      Hash: 4a40827ceebdaf9384fc0414a5371f1c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AdjustObjectLocation
+  - hash:
+      serializedVersion: 2
+      Hash: 3ceeea96dcc6eb2bf6b9f3188accdb6b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CannonBall
+  - hash:
+      serializedVersion: 2
+      Hash: 53996e64cb23d76699b0c4d3c872ec4e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Obi
+    className: ColorRandomizer
+  - hash:
+      serializedVersion: 2
+      Hash: 748dd2a2a28da4e618912da5ac45684b
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: StandaloneInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: f7858108331b563fb41b80b729297acd
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Scrollbar
+  - hash:
+      serializedVersion: 2
+      Hash: 5dea360fb0b147724ac344e6f399c2f3
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SubMesh
+  - hash:
+      serializedVersion: 2
+      Hash: eed0c1cb3764416e899aeebaaf3c00df
+    assemblyName: Obi.dll
+    namespaceName: Obi
+    className: ObiClothProxy
+  - hash:
+      serializedVersion: 2
+      Hash: 5d5b0c61f3ab6ff5f41b1bbe19764526
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.OnScreen
+    className: OnScreenButton
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: MarkerTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Obi.dll
+    namespaceName: Obi
+    className: OniColliderWorld
+  - hash:
+      serializedVersion: 2
+      Hash: 8e6ceabfd38a184413d69b7db56c89cc
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools
+    className: BeforeAfterTestCommandState
+  - hash:
+      serializedVersion: 2
+      Hash: 0fd6822f6177297bd0eb4d83cc7a9030
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ToggleGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 69415240821be7986b27e72bf9609a30
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Button
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.EnhancedTouch
+    className: TouchSimulation
+  - hash:
+      serializedVersion: 2
+      Hash: 287a4aa7392bcfb309b4d7b4dc89eb3c
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: PlayerInputEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 270b03dffca08e6bda30e3110f566e01
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BoatGameController
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.UI.Editor
+    className: InputSystemUIInputModuleEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 4fd8bf02e3089425d3502e26c44ba31a
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextContainer
+  - hash:
+      serializedVersion: 2
+      Hash: 1f0d3bc5a6596fcc61829a681c77f764
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BoatController
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.XR.OpenXR.dll
+    namespaceName: UnityEngine.XR.OpenXR
+    className: OpenXRLoaderNoPreInit
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: InputActionAssetEditor
+  - hash:
+      serializedVersion: 2
+      Hash: d3f29ba27f28c1f558880c4df5545ed3
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: 
+    className: DownloadableSample
+  - hash:
+      serializedVersion: 2
+      Hash: 8aa3d6ccbcb54ee8db6c1229854adaaa
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ContentSizeFitter
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: InputActionImporterEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.XR.OpenXR.dll
+    namespaceName: UnityEngine.XR.OpenXR
+    className: OpenXRRestarter
+  - hash:
+      serializedVersion: 2
+      Hash: d0b970920660ecfb8cf3542cb687a75d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DebugParticleFrames
+  - hash:
+      serializedVersion: 2
+      Hash: 288a51fd2b733fe5ae198b8084e63ff2
+    assemblyName: Obi.dll
+    namespaceName: Obi
+    className: ObiTearableCloth
+  - hash:
+      serializedVersion: 2
+      Hash: e459419d0e1994616693b1b05fa5137f
+    assemblyName: Obi.dll
+    namespaceName: Obi
+    className: ObiTearableClothBlueprint
+  - hash:
+      serializedVersion: 2
+      Hash: 86d753f93f247dbc2cd7ae28791ec8f4
+    assemblyName: Obi.dll
+    namespaceName: Obi
+    className: ObiStitcher
+  - hash:
+      serializedVersion: 2
+      Hash: caa533b001ae39b864ba8425019e2268
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Outline
+  - hash:
+      serializedVersion: 2
+      Hash: 360bb0785faaa135e69ca67a43365691
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: EventManager
+  - hash:
+      serializedVersion: 2
+      Hash: 76aef43e801605d1829c8805eeee135c
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem
+    className: InputActionReference
+  - hash:
+      serializedVersion: 2
+      Hash: 049d9552149e48eab9afd70895a30637
+    assemblyName: Obi.dll
+    namespaceName: Obi
+    className: ObiParticleAttachment
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 3164bc883ff663a5cdb32d1ef7e7c0c5
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: VerticalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: bc3ddec6dffa0688717767e57272e25b
+    assemblyName: Obi.dll
+    namespaceName: Obi
+    className: ObiTriangleSkinMap
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Obi
+    className: SampleCharacterController
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: PlayerQuitHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 30f3213a6e218a461fa00e428f22d3eb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AnimationController
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.XR.Oculus.dll
+    namespaceName: Unity.XR.Oculus
+    className: OculusLoader
+  - hash:
+      serializedVersion: 2
+      Hash: d251bf88db6c95a6b1aa0b69298da9ef
+    assemblyName: UnityEngine.SpatialTracking.dll
+    namespaceName: UnityEngine.SpatialTracking
+    className: TrackedPoseDriver
+  - hash:
+      serializedVersion: 2
+      Hash: 5082db7fd46f24b5532ff1ab8965c8e0
+    assemblyName: Obi.dll
+    namespaceName: Obi
+    className: ObiSkinnedCloth
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: BaseInput
+  - hash:
+      serializedVersion: 2
+      Hash: 63d6c37e8a0244ca151166e5f707b1bb
+    assemblyName: Obi.dll
+    namespaceName: Obi
+    className: ObiLateFixedUpdater
+  - hash:
+      serializedVersion: 2
+      Hash: ceae696842f2d7f5bc7678cb7be4861b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FileBrowserUpdate
+  - hash:
+      serializedVersion: 2
+      Hash: 18c222bef9ae745ce69ddde9b74337ca
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: Physics2DRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 5e8a01a14cef8c5fb6866e39e13545df
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Obi
+    className: ObiCharacter
+  - hash:
+      serializedVersion: 2
+      Hash: 98aa0a0c8ff2910eb12af89c7e0eb661
+    assemblyName: Unity.XR.Management.dll
+    namespaceName: UnityEngine.XR.Management
+    className: XRGeneralSettings
+  - hash:
+      serializedVersion: 2
+      Hash: da4cc51a02ce84afe2cecd27cfe6997a
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextMeshPro
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: PlayModeRunnerCallback
+  - hash:
+      serializedVersion: 2
+      Hash: bd3cf68c8964d3c66d1c43f4f98508c9
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AnimationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: PositionAsUV1
+  - hash:
+      serializedVersion: 2
+      Hash: 8ab9295d94483c961936d82d233d3df2
+    assemblyName: Unity.XR.Management.dll
+    namespaceName: UnityEngine.XR.Management
+    className: XRManagerSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 87ff43d2baf3385cba327d8f803a4ebb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AudioPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 1c420f7131df61f5cf5f670ddb7203c5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Blinker
+  - hash:
+      serializedVersion: 2
+      Hash: e860a95284af40074bb7dc5ed54952f8
+    assemblyName: Unity.XR.OpenXR.Features.RuntimeDebugger.dll
+    namespaceName: UnityEngine.XR.OpenXR.Features.RuntimeDebugger
+    className: RuntimeDebuggerOpenXRFeature
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: RemoteTestResultSender
+  - hash:
+      serializedVersion: 2
+      Hash: 134322c9293c1896357cce271b819ce4
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: EventTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 58e4fd2cd69050e3fd5d6262ea932b39
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Obi
+    className: LookAroundCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 794b2410f49415cba1bc2b007d129794
+    assemblyName: Obi.dll
+    namespaceName: Obi
+    className: ObiClothRenderer
+  - hash:
+      serializedVersion: 2
+      Hash: 6be939d6f0aad748aa63a8815400aaa2
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem
+    className: InputSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 794b2410f49415cba1bc2b007d129794
+    assemblyName: Obi.dll
+    namespaceName: Obi
+    className: ObiSkinnedClothRenderer
+  - hash:
+      serializedVersion: 2
+      Hash: 295852e83016219fe0ab9a38fc36f74a
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem
+    className: InputActionAsset
+  - hash:
+      serializedVersion: 2
+      Hash: a81d4c2c1cf3ad164d277d927a193679
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: 1250d0a25ceb81482c76eaab9fe32fa5
+    assemblyName: Obi.dll
+    namespaceName: Obi
+    className: ObiDistanceField
+  - hash:
+      serializedVersion: 2
+      Hash: f24798f6892bf473823bbf1bf0cc159a
+    assemblyName: Unity.XR.OpenXR.Features.MockRuntime.dll
+    namespaceName: UnityEngine.XR.OpenXR.Features.Mock
+    className: MockRuntime
+  - hash:
+      serializedVersion: 2
+      Hash: a5781dc71a671b1ad2b38de19f24b71f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ActivationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 33742a77d24b51662b941f6586a43fb2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AutoCannon
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalTrack
+  - hash:
+      serializedVersion: 2
+      Hash: cd0ecdca0166232906c6f2df9dddc3d3
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: InputActionDebuggerWindow
+  - hash:
+      serializedVersion: 2
+      Hash: aba7b2852ef61d175dd9602e7723d5e5
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Mask
+  - hash:
+      serializedVersion: 2
+      Hash: ea41fa959037983f32ebd7c70de46554
+    assemblyName: Unity.XR.OpenXR.dll
+    namespaceName: UnityEngine.XR.OpenXR.Features.Interactions
+    className: OculusTouchControllerProfile
+  - hash:
+      serializedVersion: 2
+      Hash: bfeb96683d3796cadaab890bfdfe92be
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: InputDebuggerWindow
+  - hash:
+      serializedVersion: 2
+      Hash: 794b2410f49415cba1bc2b007d129794
+    assemblyName: Obi.dll
+    namespaceName: Obi
+    className: ObiTearableClothRenderer
+  - hash:
+      serializedVersion: 2
+      Hash: 1ccb9cfedacf084ea68c18df2ac3afa4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FirstPersonLauncher
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ControlTrack
+  - hash:
+      serializedVersion: 2
+      Hash: ad4af01eeb7f0a9ae0be2df3e0f1953a
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: InputStateWindow
+  - hash:
+      serializedVersion: 2
+      Hash: 50d893c48b1c02a4b8ede5fe28ff9e85
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.UI
+    className: TrackedDeviceRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: WaterTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: f17a7afbb6fc4d6b5c3ba20ed1c93f68
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.UI
+    className: InputSystemUIInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 3165968ba45c74472d279ba04455fccb
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_ColorGradient
+  - hash:
+      serializedVersion: 2
+      Hash: 908b3077da284d11de0450423ca1808e
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: 040dd48e3a027d5424519a5fa2009df4
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ScrollRect
+  - hash:
+      serializedVersion: 2
+      Hash: 178653e8126d69ca8304672067136b03
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ObiActorTeleport
+  - hash:
+      serializedVersion: 2
+      Hash: cbec241c182496ffe06fbbd051d96889
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ExtrapolationCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 18c222bef9ae745ce69ddde9b74337ca
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: PhysicsRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 0fb27be807aa299702f28ad0bcad1f46
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ControlPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: ef5c43f921427d03730f6ea4c848f07d
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: RectMask2D
+  - hash:
+      serializedVersion: 2
+      Hash: 87ad3705a58f19c47136728d4a6e9c47
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_Settings
+  - hash:
+      serializedVersion: 2
+      Hash: f225fa71171c3fde4ed609229956aced
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RaycastLasers
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Obi.dll
+    namespaceName: Obi
+    className: ObiParticleGridDebugger
+  - hash:
+      serializedVersion: 2
+      Hash: 79ee6a23457538ab0736fffd8dfa5689
+    assemblyName: Obi.dll
+    namespaceName: Obi
+    className: ObiSolver
+  - hash:
+      serializedVersion: 2
+      Hash: 893dbdbfe611d62e230a686ea89f1efd
+    assemblyName: UnityEngine.XR.LegacyInputHelpers.dll
+    namespaceName: UnityEngine.XR.LegacyInputHelpers
+    className: SwingArmModel
+  - hash:
+      serializedVersion: 2
+      Hash: 1581f19e9ae6f6963ce6e9716d887ab4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ObjectLimit
+  - hash:
+      serializedVersion: 2
+      Hash: c1f5356fcd27668ddc25078e27f9828d
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.UI
+    className: MultiplayerEventSystem
+  - hash:
+      serializedVersion: 2
+      Hash: a8afcbd0a467dd957879959591dec288
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.XR
+    className: TrackedPoseDriver
+  - hash:
+      serializedVersion: 2
+      Hash: 6980e81ddc615a861309d2d659cc3760
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SubMeshUI
+  - hash:
+      serializedVersion: 2
+      Hash: 73499cc56a8d226621bc4c0a29fff1f7
+    assemblyName: Obi.dll
+    namespaceName: Obi
+    className: ObiDistanceFieldRenderer
+  - hash:
+      serializedVersion: 2
+      Hash: 426e5bd616852254b77531cd1a8e29b6
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.OnScreen
+    className: OnScreenStick
+  - hash:
+      serializedVersion: 2
+      Hash: a38572502626d44cdd4c4cd736b0c649
+    assemblyName: Obi.dll
+    namespaceName: Obi
+    className: ObiSkinnedClothBlueprint
+  - hash:
+      serializedVersion: 2
+      Hash: e2741748cc54299ce2fbce3ed9a17ab9
+    assemblyName: Obi.dll
+    namespaceName: Obi
+    className: ObiProfiler
+  - hash:
+      serializedVersion: 2
+      Hash: 63320586df44a9fb88dd2863bc562ad9
+    assemblyName: Obi.dll
+    namespaceName: Obi
+    className: ObiParticleDragger
+  - hash:
+      serializedVersion: 2
+      Hash: ea41fa959037983f32ebd7c70de46554
+    assemblyName: Unity.XR.OpenXR.dll
+    namespaceName: UnityEngine.XR.OpenXR.Features.Interactions
+    className: EyeGazeInteraction
+  - hash:
+      serializedVersion: 2
+      Hash: fd68d84f33fad85aac38f2739c0ee270
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SpriteAsset
+  - hash:
+      serializedVersion: 2
+      Hash: e76bb8dcc16cb0e4a30154cd38f87309
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CameraRotate
+  - hash:
+      serializedVersion: 2
+      Hash: c6d95ab84c01827906e3d9c1eed3fee9
+    assemblyName: Obi.dll
+    namespaceName: Obi
+    className: ObiParticleRenderer
+  - hash:
+      serializedVersion: 2
+      Hash: e7a73f5f78ba6445195ec23b74a1ce2d
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_ScrollbarEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 63d6c37e8a0244ca151166e5f707b1bb
+    assemblyName: Obi.dll
+    namespaceName: Obi
+    className: ObiFixedUpdater
+  - hash:
+      serializedVersion: 2
+      Hash: d1672a60e856bcddabeec80d87b3e16e
+    assemblyName: Obi.dll
+    namespaceName: Obi
+    className: ObiLateUpdater
+  - hash:
+      serializedVersion: 2
+      Hash: 285f5d7c369d870b93f4a2cbcec118e4
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: InputDeviceDebuggerWindow
+  - hash:
+      serializedVersion: 2
+      Hash: 880d064aa7bf32abd8295b0fe07bcc13
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem
+    className: InputSystemObject
+  - hash:
+      serializedVersion: 2
+      Hash: 5414ce24476cf87419823419c144e11e
+    assemblyName: Obi.dll
+    namespaceName: Obi
+    className: ObiParticleGroup
+  - hash:
+      serializedVersion: 2
+      Hash: ea41fa959037983f32ebd7c70de46554
+    assemblyName: Unity.XR.OpenXR.dll
+    namespaceName: UnityEngine.XR.OpenXR.Features.Interactions
+    className: ValveIndexControllerProfile
+  - hash:
+      serializedVersion: 2
+      Hash: 56171d5f7d69d9b27d6b95b1d3d53aa1
+    assemblyName: Obi.dll
+    namespaceName: Obi
+    className: ShadowmapExposer
+  - hash:
+      serializedVersion: 2
+      Hash: ea41fa959037983f32ebd7c70de46554
+    assemblyName: Unity.XR.OpenXR.dll
+    namespaceName: UnityEngine.XR.OpenXR.Features.Interactions
+    className: MicrosoftMotionControllerProfile
+  - hash:
+      serializedVersion: 2
+      Hash: a4d879eed97e8d86fd752672fc026fa2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Obi
+    className: MoveAndRotate
+  - hash:
+      serializedVersion: 2
+      Hash: ea41fa959037983f32ebd7c70de46554
+    assemblyName: Unity.XR.OpenXR.Features.OculusQuestSupport.dll
+    namespaceName: UnityEngine.XR.OpenXR.Features.OculusQuestSupport
+    className: OculusQuestFeature
+  - hash:
+      serializedVersion: 2
+      Hash: 3db8bf4aa4c996c729952a14af8424b5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Mine
+  - hash:
+      serializedVersion: 2
+      Hash: ea41fa959037983f32ebd7c70de46554
+    assemblyName: Unity.XR.OpenXR.dll
+    namespaceName: UnityEngine.XR.OpenXR.Features.Interactions
+    className: KHRSimpleControllerProfile
+  - hash:
+      serializedVersion: 2
+      Hash: 8220b46879dc5e37db1b940c938f5744
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: 39eb2dcd9e111c7464ffc8194c75440f
+    assemblyName: Obi.dll
+    namespaceName: Obi
+    className: ObiCollider
+  - hash:
+      serializedVersion: 2
+      Hash: 21a597af000da536a7adc9efe10b8d5d
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem
+    className: PlayerInputManager
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ActivationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Obi
+    className: ColorFromPhase
+  - hash:
+      serializedVersion: 2
+      Hash: 7ab0e790220bdca831fdd886b339039d
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GridLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: ede3d522ce29a72deb2613abda57d11e
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem
+    className: RemoteInputPlayerConnection
+  - hash:
+      serializedVersion: 2
+      Hash: abf1930d8126d0b2e00e9449129a0190
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 75a594c0dcaca4049e4ae92f93ad2f0a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: WorldSpaceGravity
+  platform: 19
+  scenePathNames:
+  - Assets/Scenes/SampleScene.unity
+  playerPath: D:/opiskelu/harjoittelu2/NonVRBuild/VirtualFittingroom.exe
