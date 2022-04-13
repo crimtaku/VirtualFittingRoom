@@ -17,11 +17,11 @@ public class ObjFromFile : MonoBehaviour
     //tarvitaan jotta päästään käsiksi dropdownista valittuihin vaatteisiin
     public GameObject eventSystem;
     public choosecloth choosecloth;
+    
     public GameObject parent;
 
     public InputField inputField;
     public InputField urlField;
-
 
     private Vector3 resetposition;
 
@@ -92,6 +92,12 @@ public class ObjFromFile : MonoBehaviour
 
             //Asetetaan parent object
             loadedObject.transform.SetParent(parent.transform);
+
+            //jos ladatulla vaatteella on particle picker asetetaan obisolver
+            if (loadedObject.GetComponent<ObiParticlePicker>() != null)
+            {
+                loadedObject.GetComponent<ObiParticlePicker>().solver = this.gameObject.GetComponent<ObiSolver>();
+            }
             
             //lopetetaan fysiikkasimulaatiot
             eventSystem.GetComponent<AdjustObjectLocation>().StopSimulation();
